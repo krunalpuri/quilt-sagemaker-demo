@@ -13,6 +13,7 @@ COPY "app.py" .
 COPY "run.sh" .
 COPY "build.ipynb" .
 COPY "health-check-data.csv" .
+COPY "clf.h5" .
 
 # provision environment
 ENV FLASK_APP app.py
